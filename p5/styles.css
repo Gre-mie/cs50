@@ -6,11 +6,17 @@
 
 body {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     font-family: monospace, Helvetica, sans-serif;
     font-size: 16;
     color: rgb(174, 174, 201);
     background-color: rgb(28, 28, 48);
+}
+
+canvas {
+    display: block;
+    margin-bottom: 1rem;
 }
