@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 16;
+    color: rgb(174, 174, 201);
+    background-color: rgb(28, 28, 48);
+}
